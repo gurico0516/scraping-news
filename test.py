@@ -3,16 +3,7 @@
 import time
 from selenium import webdriver
 import chromedriver_binary
-from selenium.webdriver.common.keys import Keys #キーボード操作のためのモジュール
-
-# 1) Initialize Chrome
-# DRIVER_PATH is dependent on your environment.
-
-driver = webdriver.Chrome()
-
-driver.get('https://www.google.com')
-
-time.sleep(3)
+from selenium.webdriver.common.keys import Keys
 
 #ブラウザの立ち上がる
 browser = webdriver.Chrome()
